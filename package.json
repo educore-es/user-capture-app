@@ -87,7 +87,7 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "moon-brain",
+      "owner": "educore-es",
       "repo": "user-capture-app",
       "releaseType": "release"
     },
