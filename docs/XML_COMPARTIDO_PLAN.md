@@ -127,7 +127,9 @@ seguir funcionando y actualizarse con normalidad a la nueva.
    `moon-brain/user-capture-app`. ✅ Ya no afecta: con todas en la 1.24.1,
    todas preguntan directamente a `moon-brain`. Solo volvería a importar si
    apareciera una instalación de la 1.24.0 o anterior, que habría que
-   comprobar o actualizar a mano.
+   comprobar o actualizar a mano. El 2026-11-22 el repositorio pasó a
+   `educore-es` y las instalaciones de la 1.26.0 o anteriores llegan por
+   redirección (ver `ACTUALIZACIONES_Y_RELEASE_PLAN.md`, 4.1).
 3. **Saltos de varias versiones.** Un equipo puede pasar de cualquier versión
    a la última sin las intermedias. Las migraciones tienen que funcionar
    desde cualquier estado anterior. Hoy lo cumplen (`ALTER TABLE` por columna
@@ -140,10 +142,10 @@ seguir funcionando y actualizarse con normalidad a la nueva.
   (`Edu User Capture`): con otro valor, el instalador nuevo se instalaría al
   lado del antiguo y con otra carpeta de datos (`config.json`, recientes,
   miniaturas).
-- `build.publish` apuntando a `moon-brain/user-capture-app`, con
+- `build.publish` apuntando a `educore-es/user-capture-app`, con
   `releaseType: release`, y `latest.yml` en cada Release.
-- No crear nunca un repositorio `vicpiri/user-capture-app`: rompería la
-  redirección.
+- No crear nunca un repositorio `user-capture-app` en `vicpiri` ni en
+  `moon-brain`: rompería la redirección.
 
 ### 5.3 Tests de compatibilidad con proyectos reales
 
