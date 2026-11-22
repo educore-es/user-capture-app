@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.26.1](https://github.com/educore-es/user-capture-app/compare/v1.26.0...v1.26.1) (2026-11-22)
+
+### Bug Fixes
+
+* look for updates in the educore-es repository ([7a28e21](https://github.com/educore-es/user-capture-app/commit/7a28e213e449f9f45c865d647df4790771304237))
+
 ## [1.26.0](https://github.com/moon-brain/user-capture-app/compare/v1.25.0...v1.26.0) (2026-11-02)
 
 ### Features
