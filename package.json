@@ -47,9 +47,9 @@
   "dependencies": {
     "chokidar": "^3.6.0",
     "electron-updater": "^6.8.11",
-    "fast-xml-parser": "^5.11.2",
+    "fast-xml-parser": "^5.12.1",
     "markdown-it": "^15.0.3",
-    "pdfkit": "^0.20.2",
+    "pdfkit": "^0.21.0",
     "sharp": "^0.35.5",
     "yazl": "^3.3.1"
   },
